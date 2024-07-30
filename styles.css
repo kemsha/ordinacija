@@ -93,8 +93,42 @@ body {
     margin-bottom: 30px;
 }
 
+#download {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#download .download-box {
+    border: 1px solid #dee2e6;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+#download h2 {
+    margin-bottom: 20px;
+}
+
+#download p {
+    margin-bottom: 30px;
+    color: #6c757d;
+}
+
+#download a.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#download a.btn:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
 #contact {
-    background-color: lightblue;
+    background-color: white;
 }
 
 /* Footer */
@@ -105,4 +139,13 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+.carousel-inner img {
+    display: block;
+    margin: 0 auto;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    width: 5%;
 }
