@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Dozic's Portfolio</title>
+    <meta name="description" content="Dr. Dozić je vodeći ortoped u Sarajevu, specijaliziran za ortopedske preglede i tretmane. Posjetite nas za vrhunsku ortopedsku njegu i rehabilitaciju.">
+    <title>Dr. Đozić | Stručnjak za Ortopediju Sarajevo | Ortopedska Njega</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
@@ -22,16 +22,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#about">O nama</a>
+                        <a class="nav-link" href="#about">O nama</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Usluge</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Pitanja i Odgovori</a>
+                        <a class="nav-link" href="#qna">Pitanja i Odgovori</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#download">Radovi</a>
+                        <a class="nav-link" href="#works">Aktuelne teme</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Kontakt</a>
@@ -41,518 +41,473 @@
         </div>
     </nav>
         <!-- Landing Section -->
-        <section id="landing" class="d-flex align-items-center justify-content-center text-center">
-            <div class="container">
-                <h1 class="display-4 text-white">Dobrodošli u ordinaciju Dr. Đozić</h1>
-                <p class="lead text-white">Zakažite pregled:</p>
-                <p class="lead text-white">TEL: 033 212 441</p>
-                <p class="lead text-white">MOB: 061 224 553</p>
+        <section class="landing-section d-flex align-items-center justify-content-center text-center">
+            <div class="overlay">
+                <h1 class="text-white">Dobro došli u ortopedsko-traumatološku ordinaciju Dr.Đozić</h1>
+                <p class="text-white">Zakažite pregled:</p>
+                <p class="text-white">TEL: 033 212 441</p>
+                <p class="text-white">MOB: 061 224 553</p>
             </div>
         </section>
 
-    <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="slike/doktor.jpg" class="d-block w-100" alt="Dr. Dozic Picture 1">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/doktor-ordinacija2.jpg" class="d-block" alt="Dr. Dozic Picture 2">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/certifikat.jpg" class="d-block" alt="Dr. Dozic Picture 3">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/novine.jpg" class="d-block" alt="Dr. Dozic Picture 4">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/zahvalnica.jpg" class="d-block" alt="Dr. Dozic Picture 5">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/6april.jpg" class="d-block" alt="Dr. Dozic Picture 6">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/certifikat.jpg" class="d-block" alt="Dr. Dozic Picture 7">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/diploma.jpg" class="d-block" alt="Dr. Dozic Picture 8">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/doktorat.jpg" class="d-block" alt="Dr. Dozic Picture 9">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/engleska.jpg" class="d-block" alt="Dr. Dozic Picture 10">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/francuska.jpg" class="d-block" alt="Dr. Dozic Picture 11">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/njemacka.jpg" class="d-block" alt="Dr. Dozic Picture 12">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/ordinacija1.jpg" class="d-block" alt="Dr. Dozic Picture 13">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/ordinacija2.jpg" class="d-block" alt="Dr. Dozic Picture 14">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/ordinacija3.jpg" class="d-block" alt="Dr. Dozic Picture 15">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/ordinacija4.jpg" class="d-block" alt="Dr. Dozic Picture 16">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/doktor_beba.jpg" class="d-block" alt="Dr. Dozic Picture 17">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="slike/doktor_beba2.jpg" class="d-block" alt="Dr. Dozic Picture 18">
+<!-- About Section -->
+<section id="about" class="py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div id="aboutCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+                    <div class="carousel-inner shadow-sm rounded">
+                        <div class="carousel-item active">
+                            <img src="slike/doktor-ordinacija2.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/doktor.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/6april.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/certifikat.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/diploma.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/doktorat.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/engleska.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/francuska.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/njemacka.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/novine.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/senat.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/zahvalnica.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/doktor_beba.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/doktor_beba2.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/ordinacija1.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/ordinacija2.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/ordinacija3.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slike/ordinacija4.jpg" class="d-block w-100" alt="Dr. Đozic | Ortoped | Sarajevo">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-primary mb-4">Kratka Biografija</h3>
+                <div class="about-content text-secondary">
+                    <p>Prim. dr. sci. med. Šukrija Đozić je jedan od vodećih stručnjaka u oblasti ortopedije u Sarajevu. Specijalizaciju iz ortopedske hirurgije i traumatologije završio je 1985. godine na Vojno-medicinskoj akademiji u Beogradu. Od 1980. godine radio je u Vojnoj bolnici Sarajevo, gdje je 1992. godine postao šef ortopedskog odjeljenja. U maju 1992. dao je idejno rješenje za izradu inovativnog ratnog fiksatora, poznatog kao "Sarafix" – sarajevski ratni fiksator, za koji je sa koautorima dobio pet svjetskih priznanja na sajmovima inovacija.</p>
+                    
+                    <p>Njegov doprinos razvoju ortopedije u Sarajevu prepoznat je 1994. godine kada je dobio zahvalnicu grada Sarajeva za unapređenje zdravstva. Dr. Đozić je svoju stručnost usavršavao u prestižnim ustanovama širom svijeta, uključujući Pariz, Wrightington u Engleskoj, Specijalnu ortopedsku bolnicu Valdoltra u Sloveniji, Denver u SAD-u, Insbruk, Istanbul, i mnoge druge.</p>
+
+                    <p>Posebno se istakao edukacijom za ultrazvučnu dijagnostiku razvojnog poremećaja dječijeg kuka kod prof. Graff-a, koju je uspješno završio 2001. godine. Svoje stručno znanje i radove prezentovao je na međunarodnim kongresima u Bolonji, Pragu, Barceloni, Engleskoj i Škotskoj. Bio je član Udruženja ortopeda i traumatologa Velike Britanije od 2001. godine, a iste godine je dobio i prestižnu Šestoaprilsku nagradu Grada Sarajeva za svoj doprinos nauci i tehnici.</p>
+
+                    <p>Magistarski rad odbranio je 2002. godine, a doktorsku disertaciju 2011. godine na Medicinskom fakultetu Univerziteta u Sarajevu. Dr. Đozić je od 2005. do 2017. godine obavljao dužnost šefa hirurških disciplina Opće bolnice “Prim dr Abdulah Nakaš” u Sarajevu, nakon čega je otišao u mirovinu. Danas vodi svoju privatnu ortopedsko-traumatološku ambulantu “Dr Đozić” u Sarajevu, pružajući vrhunsku ortopedsku njegu i tretmane. Ako tražite stručnu ortopedsku uslugu u Sarajevu, dr. Đozić je pravo ime za vas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Services Section -->
+<section id="services" class="py-5 bg-white">
+    <div class="container">
+        <h2 class="text-center text-primary mb-5">Usluge</h2>
+        <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Specijalističko konsultativne usluge iz oblasti ortopedije</h5>
+                                </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev custom-carousel-control" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next custom-carousel-control" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Specijalističko konsultativne usluge iz oblasti traumatologije lokomotornog aparata</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Konzervativno liječenje bolesti i povreda lokomotornog aparata djece i odraslih</h5>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <h2>Kratka Biografija</h2>
-                    <p>Prim. Dr. sci. med. Šukrija Đozić je završio specijalizaciju iz Ortopedske hirurgije i traumatologije 1985. godine na Vojno - Medicinskoj Akademiji u Beogradu. Radio je od 1980 godine u Vojnoj bolnici Sarajevo, a od 1992 godine je šef ortopedskog odjeljenja.</p>
-                    <p>Maja mjeseca 1992. godine je dao idejno rješenje za izradu spoljašnjeg ratnog fiksatora, koga je nazvao sarajevski ratni fiksator- “Sarafix”. Za ovu inovaciju je dobio sa koautorima pet svjetskih priznanja na sajmovima inovacija. Za unapređenje zdravstva dobio je zahvalnicu grada Sarajeva 1994. godine.</p>
-                    <p>Boravio je na stručnom usavršavanju u Parizu, Wrightingtonu u Engleskoj, Specijalnoj ortopedskoj bolnici Valdoltra u Ankaranu-Slovenija, Denveru-SAD, Insbruku, Istanbulu. Završio je uspješno edukaciju za ultrazvučnu dijagnostiku razvojnog poremećaja dječijeg kuka kod prof Graff-a 2001. Svoje stručne radove je izlagao na kongresima u Bolonji, Pragu, Barceloni, Engleskoj i Škotskoj-Edinburg.</p>
-                    <p>Bio je član udruženja ortopeda i traumatologa Velike Britanije od 2001.godine. Dobitnik je Šestoaprilske nagrade Grada Sarajeva za 2001. godinu za ukupan doprinos razvoju grada Sarajeva u oblasti nauke i tehnike. Magistarski rad je odbranio 2002. godine, a doktorsku disertaciju 2011. godine na Medicinskom fakultetu Univerziteta u Sarajevu.</p>
-                    <p>Obavljao je dužnost Šefa hirurških disciplina Opće bolnice “Prim dr Abdulah Nakaš” u Sarajevu od 2005. do 2017, kada odlazi u mirovinu. Sada radi u svojoj privatnoj ortopedsko-traumatološkoj ambulanti “ DR ĐOZIĆ”.</p>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Liječenje urođenog krivog stopala kod djece</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Liječenje razvojnog poremećaja dječijeg kuka</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Liječenje deformiteta kičme kod djece</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Konzervativno liječenje bolnih sindroma kralježnice</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Liječenje statičkih deformiteta stopala u djece i odraslih
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Ultrazvučni pregledi lokomotornog aparata</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Ultrazvučni pregledi dječijeg kuka</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Punkcije zglobova</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Davanje injekcija u rame, lakat, ručni zglob, koljeno i skočni zglob kod upalnih i bolnih stanja - “blokada”</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Mišljenje i pripreme za operativno liječenja bolesti i povreda lokomotornog aparata /ugradnja vještačkog kuka i koljena i dr./</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-secondary">Mišljenje ljekara Cenzora za odredjivanje procenta trajnog invaliditeta, kao posljedice nesretnog slučaja.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Questions and Answers Section -->>
+
+<section id="testimonials" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center text-primary mb-5 ">Pitanja i Odgovori</h2> 
+        <div class="row">
+            <!-- Testimonial Card 1 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title" style="color: #555;">Pitanje</h5> 
+                        <p class="card-text flex-grow-1" style="color: #777;">"Imam 31 godinu. Imam skoliozu. Nedavno sam išla na vježbe. Sada sam u drugom stanju i da li mogu imati problema zbog kičme?"</p> <!-- Adjust the color to match previous sections -->
+                        <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#testimonialModal1">Kliknite za odgovor</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Card 2 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title" style="color: #555;">Pitanje</h5>
+                        <p class="card-text flex-grow-1" style="color: #777;">"Imam jake bolove u lijevom stopalu. Imao sam povredu. Obavio sam fizikalnu terapiju, ali ne pomaže. Šta da radim?"</p>
+                        <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#testimonialModal2">Kliknite za odgovor</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Card 3 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title" style="color: #555;">Pitanje</h5>
+                        <p class="card-text flex-grow-1" style="color: #777;">"Spina kalkanei lat dex. Šta je najbolja terapija?"</p>
+                        <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#testimonialModal3">Kliknite za odgovor</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Card 4 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title" style="color: #555;">Pitanje</h5>
+                        <p class="card-text flex-grow-1" style="color: #777;">"Povremeno me na lijevoj nozi boli Ahilova tetiva. Osjećam da me nešto steže. Imam ravna stopala. O čemu se radi?"</p>
+                        <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#testimonialModal4">Kliknite za odgovor</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Card 5 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title" style="color: #555;">Pitanje</h5>
+                        <p class="card-text flex-grow-1" style="color: #777;">"Slomio sam kuk. Fraktura bazicervikalis. Šta to znači?"</p>
+                        <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#testimonialModal5">Kliknite za odgovor</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Modal for Testimonial 1 -->
+<div class="modal fade" id="testimonialModal1" tabindex="-1" aria-labelledby="testimonialModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="testimonialModal1Label" style="color: #333;">Odgovor</h5> <!-- Adjust the color to match previous sections -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="color: #555;">
+                <p>Čovjekova kičma gledana sprijeda ili straga tj. u frontalnom presjeku je ravna bez ikakvih postraničnih zavoja. Ukoliko postoji krivina u ovoj ravni, govorimo o skoliozi kičme. Obično je skolioza locirana na grudnom i slabinskom dijelu kičme.</p>
+                <p>Kod prave strukturalne skolioze pored postraničnih krivina postoji i rotacija kičme oko uzdužne osovine, kao i torzija pršljenova, tj. uvrtanje jednog dijela pršljena u odnosu na drugi. Na ovaj način dolazi do rotacije i rebara sa određenim pršljenovima, te nastaje rebarna grba.</p>
+                <p>Postoji i druga vrsta skolioza - "nestrukturalna", kod koje nema rotacije kičme oko uzdužne osovine i čiji su uzroci mnogobrojni. Najčešće su idopatske skolioze na koje otpada 70% skolioza. Uzrok im nije poznat, ali se smatra da genetika igra važnu ulogu, te da se javljaju u određenim porodicama.</p>
+                <p>Vjerovatno se i kod Vas radi o ovom tipu skolioze. Obzirom da imate 31. godinu, skolioza je etablirana, te se neće dalje pogoršavati, jer se deformitet kičme završava sa završetkom koštanog rasta. Savjetujem Vam da u trudnoći ne dobijete mnogo na težini, kako ne bi dodatno opteretili Vašu kičmu.</p>
+                <p>Smatram da ne bi trebalo da imate problema kod poroda, jer se vjerovatno radi i o blažem tipu skolioze. Također Vam savjetujem da nakon poroda češće posjetite ortopeda ili fizijatra, kako bi fizikalnom terapijom ojačali paravertebralnu muskulaturu-mišiće oko kičme i na taj način stabilizirali svoju kičmu i smanjili buduće tegobe.</p>
+                <p>Također Vam savjetujem da svoje dijete, pogotovo ako bude djevojčica pratite u razvoju, posebno pubertetu kako bi preduprijedili nastanak skolioze.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal for Testimonial 2 -->
+<div class="modal fade" id="testimonialModal2" tabindex="-1" aria-labelledby="testimonialModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="testimonialModal2Label" style="color: #333;">Odgovor</h5> <!-- Adjust the color to match previous sections -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="color: #555;">
+                <p>Ne navodite kakva je povreda bila, da li je bila povreda samo mehkih struktura ili i koštano-zglobnog sistema. Potrebno je tačno utvrditi prirodu povrede, što se može učiniti jednim detaljnim ortopedskim pregledom uz Rtg snimak stopala u dva pravca.</p>
+                <p>Ako bude potrebno može se učiniti i CT - kompjuterizovana tomografija pa i magnetna rezonanca stopala da se definitivno utvrdi uzrok Vaših tegoba. Nakon toga se može dati adekvatna terapija, pa i različiti modaliteti fizikalne terapije, koji će Vam olakšati tegobe.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal for Testimonial 3 -->
+<div class="modal fade" id="testimonialModal3" tabindex="-1" aria-labelledby="testimonialModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="testimonialModal3Label" style="color: #333;">Odgovor</h5> <!-- Adjust the color to match previous sections -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="color: #555;">
+                <p>Spina kalkanei ili "petni trn" je izraslina na donjem, tabanskom dijelu petne kosti. Nastaje zbog naprezanja tabanske fascije - ovojnice, kod spuštenih stopala ili zbog prevelikog opterećenja, stajanjem, hodanjem ili povećanom tjelesnom težinom.</p>
+                <p>Češće se javlja kod osoba ženskog pola. Karakteristična je bol u predjelu pete sa tabanske strane, kao "ubod iglom", koja se javlja pri prvim koracima nakon jutarnjeg ustajanja. Kasnije se bol smanji, da bi se ponovo pojavila nakon dužeg hodanja.</p>
+                <p>Liječenje se sprovodi mirovanjem, nošenjem ortopedskih uložaka sa perforiranom petom da bi se rasteretio petni trn ili se postavlja spušva pod petom. Potrebno je smanjiti aktivnosti i rasteretiti petu. Također se taju nesteroidni antireumatici, različiti modaliteti fizikalne terapije a kod upornih tegoba, daju se i lokalne instilacije kortikosteroida sa anestetikom.</p>
+                <p>Vrlo je rijetko indiciran operativni zahvat. Drži se da oko 20% osoba ima petni trn, ali nema nikakvih tegoba.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal for Testimonial 4 -->
+<div class="modal fade" id="testimonialModal4" tabindex="-1" aria-labelledby="testimonialModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="testimonialModal4Label" style="color: #333;">Odgovor</h5> <!-- Adjust the color to match previous sections -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="color: #555;">
+                <p>Kontinuirano dugotrajno opterećenje, prekomjerni napor, trauma, spuštena stopala i pritisak obuće mogu izazvati upalne, podražajne promjene u predjelu hvatišta Ahilove tetive i njene ovojnice. To se karakteriše bolovima, otokom, krepitacijama - pucketanjem i stezanjem u predjelu Ahilove tetive na 2-6 cm od hvatišta za petnu kost.</p>
+                <p>Često dolazi i do upale na samom hvatištu tetive za petnu kost, što se naziva enthesitis - enthesis spoj. Također je moguće da dođe do upale prisutnih sluznih kesica koje se nalaze na hvatištu Ahilove tetive, jedna potkožno a druga između Ahilove tetive i kosti.</p>
+                <p>Sve ovo stvara tegobe i otežava hod. Nekada može preći u hronično stanje, koje se može zahtijevati i operativno liječenje. U akutnom stanju se peta rasterećuje povišicom na peti. Stavljaju se hladni oblozi. Ordiniraju se nesteroidni antireumatici i određene procedure fizikalne terapije. Mogu se dati lokalno kortikosteroidi sa anesteticima, što može olakšati tegobe i dovesti do izliječenja.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal for Testimonial 5 -->
+<div class="modal fade" id="testimonialModal5" tabindex="-1" aria-labelledby="testimonialModal5Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="testimonialModal5Label" style="color: #333;">Odgovor</h5> <!-- Adjust the color to match previous sections -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="color: #555;">
+                <p>Prelom kuka je ozbiljna i teška povreda. Češći je u starijem životnom dobu u osoba kod kojih postoje lokalizovane ili generalizovane ostoporotične promjene. U takvim slučajevima manja, nekada i trivijalna trauma može uzrokovati prelom u predjelu kuka. Danas se ovi prelomi zovu "niskoenergetski prelomi".</p>
+                <p>Kod mladih osoba ovakva povreda se viđa gotovo isključivo kao posljedica snažne traume, najčešće u saobraćaju. Klasifikacija preloma vrata butne kosti u anatomskom pogledu, ukazuje na nivo i vrstu zglobnog preloma. Prelom ispod glave butne kosti - subkapitalni prelom ima najnepovoljniju evoluciju.</p>
+                <p>Prelom u predjelu sredine vrata butne kosti se naziva transcervikalni ili mediocervikalni. Prelom u predjelu baze vrata butne kosti se naziva bazicervikalni, što je i kod Vas slučaj. Svi ovi prelomi su prelomi u zglobu kuka, gdje je prelomom kompromitovana cirkulacija u vratu i glavi butne kosti.</p>
+                <p>Zato je liječenje ovih prijeloma otežano zbog često odloženog zarastanja, nezarastanja i stvaranja lažnih zglobova ili pseudoarktroza. Također zbog ugrožene cirkulacije može doći do aseptične nekroze glave butne kosti.</p>
+                <p>Liječenje je operativno i kod mlađih osoba se rješava osteosinteskim materijalima, raznim vrstama šarafa, ploča ili klinova. Kod starijih osoba se također operativno liječe implantacijom parcijalnih ili totalnih proteza kuka, kako bi se pacijent što prije vertikalizirao, mobilizirao i uspješno vratio u svoju životnu sredinu.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Download Section -->
+    <section id="download" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center text-primary mb-5">Aktuelne teme</h2>
+            <div class="download-box">
+                <div class="download-files">
+                    <p>Kliknite na dugme ispod da preuzmete fajl:</p>
+                    <div class="download-item">
+                        <p class="file-name">Kongres Jahorina 2022</p>
+                        <a href="fajlovi/kongres Jahorina 2022.  Učitelji govore.pptx" download class="btn btn-primary">Preuzmi</a>
+                    </div>
+                    <div class="download-item">
+                        <p class="file-name">Razvojni poremećaj dječijeg kuka</p>
+                        <a href="fajlovi/RAZVOJNI POREMEĆAJ DJEČIJEG KUKA.doc" download class="btn btn-primary">Preuzmi</a>
+                    </div>
+                    <div class="download-item">
+                        <p class="file-name">Zadnja luksacija ramena</p>
+                        <a href="fajlovi/Zadnja luksacija ramena.ppt" download class="btn btn-primary">Preuzmi</a>
+                    </div>
+                    <div class="download-item">
+                        <p class="file-name">Atlas članak</p>
+                        <a href="fajlovi/ŠUKRIJA ĐOZIĆ.pdf" download class="btn btn-primary">Preuzmi</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Services Section -->
-    <section id="services" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center">Usluge</h2>
-            <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Specijalističko konsultativne usluge iz oblasti ortopedije</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Specijalističko konsultativne usluge iz oblasti traumatologije lokomotornog aparata</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Konzervativno liječenje bolesti i povreda lokomotornog aparata djece i odraslih</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Liječenje urođenog krivog stopala kod djece</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Liječenje razvojnog poremećaja dječijeg kuka</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Liječenje deformiteta kičme kod djece</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Konzervativno liječenje bolnih sindroma kralježnice</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Liječenje statičkih deformiteta stopala u djece i odraslih</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Ultrazvučni pregledi lokomotornog aparata</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Ultrazvučni pregledi dječijeg kuka</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Punkcije zglobova</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Davanje injekcija u rame, lakat, ručni zglob, koljeno i skočni zglob kod upalnih i bolnih stanja - “blokada”</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Mišljenje i pripreme za operativno liječenja bolesti i povreda lokomotornog aparata /ugradnja vještačkog kuka i koljena i dr./</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <h5 class="card-title">Mišljenje ljekara Cenzora za odredjivanje procenta trajnog invaliditeta, kao posljedice nesretnog slučaja.</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Pitanja i Odgovori</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card" data-bs-toggle="modal">
-                        <div class="card-body">
-                            <h5 class="card-title">Pitanje</h5>
-                            <p class="card-text">"Imam 31 godinu. Imam skoliozu. Nedavno sam išla na vježbe. Sada sam u drugom stanju i da li mogu imati problema zbog kičme?"</p>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#testimonialModal1">Kliknite za odgovor</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" data-bs-toggle="modal">
-                        <div class="card-body">
-                            <h5 class="card-title">Pitanje</h5>
-                            <p class="card-text">"Imam jake bolove u lijevom stopalu. Imao sam povredu. Obavio sam fizikalnu terapiju, ali ne pomaže. Šta da radim?"</p>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#testimonialModal2">Kliknite za odgovor</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" data-bs-toggle="modal">
-                        <div class="card-body">
-                            <h5 class="card-title">Pitanje</h5>
-                            <p class="card-text">"Spina kalkanei lat dex. Šta je najbolja terapija?"</p>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#testimonialModal3">Kliknite za odgovor</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" data-bs-toggle="modal">
-                        <div class="card-body">
-                            <h5 class="card-title">Pitanje</h5>
-                            <p class="card-text">"Povremeno me na lijevoj nozi boli Ahilova tetiva. Osjećam da me nešto steže. Imam ravna stopala. O čemu se radi?"</p>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#testimonialModal4">Kliknite za odgovor</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" data-bs-toggle="modal">
-                        <div class="card-body">
-                            <h5 class="card-title">Pitanje</h5>
-                            <p class="card-text">"Slomio sam kuk. Fraktura bazicervikalis. Šta to znači?"</p>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#testimonialModal5">Kliknite za odgovor</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" data-bs-toggle="modal">
-                        <div class="card-body">
-                            <h5 class="card-title">Studij</h5>
-                            <p class="card-text">"Ultrazvuk otkriva urođeno išćašenje"</p>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#testimonialModal6">Kliknite za detaljnije</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Modal for Testimonial 1 -->
-    <div class="modal fade" id="testimonialModal1" tabindex="-1" aria-labelledby="testimonialModal1Label"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="testimonialModal1Label">Odgovor</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Čovjekova kičma gledana sprijeda ili straga tj. u frontalnom presjeku je ravna bez ikakvih postraničnih zavoja. Ukoliko postoji krivina u ovoj ravni, govorimo o skoliozi kičme. Obično je skolioza locirana na grudnom i slabinskom dijelu kičme.</p>
-                    <p>Kod prave strukturalne skolioze pored postraničnih krivina postoji i rotacija kičme oko uzdužne osovine, kao i torzija pršljenova, tj. uvrtanje jednog dijela pršljena u odnosu na drugi. Na ovaj način dolazi do rotacije i rebara sa određenim pršljenovima, te nastaje rebarna grba.</p>
-                    <p>Postoji i druga vrsta skolioza - "nestrukturalna", kod koje nema rotacije kičme oko uzdužne osovine i čiji su uzroci mnogobrojni. Najčešće su idopatske skolioze na koje otpada 70% skolioza. Uzrok im nije poznat, ali se smatra da genetika igra važnu ulogu, te da se javljaju u određenim porodicama.</p>
-                    <p>Vjerovatno se i kod Vas radi o ovom tipu skolioze. Obzirom da imate 31. godinu, skolioza je etablirana, te se neće dalje pogoršavati, jer se deformitet kičme završava sa završetkom koštanog rasta. Savjetujem Vam da u trudnoći ne dobijete mnogo na težini, kako ne bi dodatno opteretili Vašu kičmu.</p>
-                    <p>Smatram da ne bi trebalo da imate problema kod poroda, jer se vjerovatno radi i o blažem tipu skolioze. Također Vam savjetujem da nakon poroda češće posjetite ortopeda ili fizijatra, kako bi fizikalnom terapijom ojačali paravertebralnu muskulaturu-mišiće oko kičme i na taj način stabilizirali svoju kičmu i smanjili buduće tegobe.</p>
-                    <p>Također Vam savjetujem da svoje dijete, pogotovo ako bude djevojčica pratite u razvoju, posebno pubertetu kako bi preduprijedili nastanak skolioze.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal for Testimonial 2 -->
-    <div class="modal fade" id="testimonialModal2" tabindex="-1" aria-labelledby="testimonialModal2Label"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="testimonialModal2Label">Odgovor</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Ne navodite kakva je povreda bila, da li je bila povreda samo mehkih struktura ili i koštano-zglobnog sistema. Potrebno je tačno utvrditi prirodu povrede, što se može učiniti jednim detaljnim ortopedskim pregledom uz Rtg snimak stopala u dva pravca.</p>
-                    <p>Ako bude potrebno može se učiniti i CT - kompjuterizovana tomografija pa i magnetna rezonanca stopala da se definitivno utvrdi uzrok Vaših tegoba. Nakon toga se može dati adekvatna terapija, pa i različiti modaliteti fizikalne terapije, koji će Vam olakšati tegobe.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal for Testimonial 3 -->
-    <div class="modal fade" id="testimonialModal3" tabindex="-1" aria-labelledby="testimonialModal3Label"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="testimonialModal3Label">Odgovor</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Spina kalkanei ili "petni trn" je izraslina na donjem, tabanskom dijelu petne kosti. Nastaje zbog naprezanja tabanske fascije - ovojnice, kod spuštenih stopala ili zbog prevelikog opterećenja, stajanjem, hodanjem ili povećanom tjelesnom težinom.</p>
-                    <p>Češće se javlja kod osoba ženskog pola. Karakteristična je bol u predjelu pete sa tabanske strane, kao "ubod iglom", koja se javlja pri prvim koracima nakon jutarnjeg ustajanja. Kasnije se bol smanji, da bi se ponovo pojavila nakon dužeg hodanja.</p>
-                    <p>Liječenje se sprovodi mirovanjem, nošenjem ortopedskih uložaka sa perforiranom petom da bi se rasteretio petni trn ili se postavlja spušva pod petom. Potrebno je smanjiti aktivnosti i rasteretiti petu. Također se taju nesteroidni antireumatici, različiti modaliteti fizikalne terapije a kod upornih tegoba, daju se i lokalne instilacije kortikosteroida sa anestetikom.</p>
-                    <p>Vrlo je rijetko indiciran operativni zahvat. Drži se da oko 20% osoba ima petni trn, ali nema nikakvih tegoba.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal for Testimonial 4 -->
-    <div class="modal fade" id="testimonialModal4" tabindex="-1" aria-labelledby="testimonialModal4Label"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="testimonialModal4Label">Odgovor</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Kontinuirano dugotrajno opterećenje, prekomjerni napor, trauma, spuštena stopala i pritisak obuće mogu izazvati upalne, podražajne promjene u predjelu hvatišta Ahilove tetive i njene ovojnice. To se karakteriše bolovima, otokom, krepitacijama - pucketanjem i stezanjem u predjelu Ahilove tetive na 2-6 cm od hvatišta za petnu kost.</p>
-                    <p>Često dolazi i do upale na samom hvatištu tetive za petnu kost, što se naziva enthesitis - enthesis spoj. Također je moguće da dođe do upale prisutnih sluznih kesica koje se nalaze na hvatištu Ahilove tetive, jedna potkožno a druga između Ahilove tetive i kosti.</p>
-                    <p>Sve ovo stvara tegobe i otežava hod. Nekada može preći u hronično stanje, koje se može zahtijevati i operativno liječenje. U akutnom stanju se peta rasterećuje povišicom na peti. Stavljaju se hladni oblozi. Ordiniraju se nesteroidni antireumatici i određene procedure fizikalne terapije. Mogu se dati lokalno kortikosteroidi sa anesteticima, što može olakšati tegobe i dovesti do izliječenja.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal for Testimonial 5 -->
-    <div class="modal fade" id="testimonialModal5" tabindex="-1" aria-labelledby="testimonialModal5Label"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="testimonialModal5Label">Odgovor</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Prelom kuka je ozbiljna i teška povreda. Češći je u starijem životnom dobu u osoba kod kojih postoje lokalizovane ili generalizovane ostoporotične promjene. U takvim slučajevima manja, nekada i trivijalna trauma može uzrokovati prelom u predjelu kuka. Danas se ovi prelomi zovu "niskoenergetski prelomi".</p>
-                    <p>Kod mladih osoba ovakva povreda se viđa gotovo isključivo kao posljedica snažne traume, najčešće u saobraćaju. Klasifikacija preloma vrata butne kosti u anatomskom pogledu, ukazuje na nivo i vrstu zglobnog preloma. Prelom ispod glave butne kosti - subkapitalni prelom ima najnepovoljniju evoluciju.</p>
-                    <p>Prelom u predjelu sredine vrata butne kosti se naziva transcervikalni ili mediocervikalni. Prelom u predjelu baze vrata butne kosti se naziva bazicervikalni, što je i kod Vas slučaj. Svi ovi prelomi su prelomi u zglobu kuka, gdje je prelomom kompromitovana cirkulacija u vratu i glavi butne kosti.</p>
-                    <p>Zato je liječenje ovih prijeloma otežano zbog često odloženog zarastanja, nezarastanja i stvaranja lažnih zglobova ili pseudoarktroza. Također zbog ugrožene cirkulacije može doći do aseptične nekroze glave butne kosti.</p>
-                    <p>Liječenje je operativno i kod mlađih osoba se rješava osteosinteskim materijalima, raznim vrstama šarafa, ploča ili klinova. Kod starijih osoba se također operativno liječe implantacijom parcijalnih ili totalnih proteza kuka, kako bi se pacijent što prije vertikalizirao, mobilizirao i uspješno vratio u svoju životnu sredinu.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
-                </div>
-            </div>
-        </div>
-    </div>
-        <!-- Modal for Testimonial 2 -->
-        <div class="modal fade" id="testimonialModal6" tabindex="-1" aria-labelledby="testimonialModal6Label"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="testimonialModal2Label">Studij</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Urođeno išćašenje dječijeg kuka je najčešća deformacija koštano-zglobnog sistema u dječijem uzrastu. Svrstava se u razvojni poremećaj dječijeg kuka. Obuhvata sve oblike poremećaja razvoja kuka, od slabije razvijenosti čašice kuka (displazija), poluišćašenja (subluksacija) do potpunog išćašenja (luksacija).</p>
-                    <p>Ova deformacija uzrokuje rame degenerativne promjene zgloba kuka, koje su praćene bolovima, šepanjem i ograničavanjem svakodnevnih aktivnosti. Malo dijete ove promjene ignorira, adolescent tolerira a najviše pati odrastao čovjek. Zato se može reći da je ovo medicinski, socijalni i društveni problem. Normalan zglob kuka ima dobar odnos glave butne kosti i čašice, dok je kod displazije čašica slabije razvijena.</p>
-                    <p>Kod subluksacije jedan dio glave butne kosti je u čašici a jedan je van nje, dok je kod luksacije ili potpunog išćašenja glava butne kosti van čašice. Uzrok razvojnog poremećaja kuka još nije razjašnjen. Smatra se da ovaj poremećaj uvjetovan s više faktora. Naslijeđe igra veliku ulogu, kao i položaj djeteta u maternici. Također i porod na zadak ostavlja sumnju na razvojni poremećaj kuka, kao i postojanje drugih deformacija.</p>
-                    <p>Učestalost oboljenja kreće se od 0,5 do 30 posto, ovisno o regiji i rasi. išćašenje se četiri do šest puta češće javlja kod djevojčica. Zato se preporučuje rano otkrivanje ove deformacije i to po mogućnošću odmah nakon rođenja, kako bi se na vrijeme liječile i na taj način spriječile teške posljedice za kuk. Dijagnozu mora postaviti već u porodilištu pedijatar ili u prvom mjesecu od rođenja dječiji ortoped. Dijagnoza se postavlja kliničkim i ultrazvučnim pregledom kuka. Ultrazvučni pregled treba uraditi 4 - 6 sedmica nakon rođenja djeteta.</p>
-                    <p>Klinički pregled ukazuje na labavost kuka, skraćenu nogicu djeteta ili nejednake brazde na natkoljenicam i sjedalnom predjelu, kao i ograničenom "otvaranju kuka" pri savijenim nogicama. Što se ranije otkrije poremećaj, lijećenje je uspješnije, jer se iskorištava veliki fiziološki potencijal razvoja kuka u prvih nekoliko mjeseci te se kuk usmjerava ka normalnom rastu i razvoju.</p>
-                    <p>Ultrazvuk je zaltni standard u dijagnostici ovog poremećaja. Potrebno je svako novorođenče pedijatar neonatolog pregleda u porodilištu a ako se postavi sumnja na razvojni poremećaj ili je pozitivna porodična anamneza ili dijete pripada rizičnoj skupini, potrebno je da dijete pogleda dječiji ortoped u prvom mjesecu do šest sedmica.</p>
-                    <p>Suptilna dijagnostika promjena na čašici zgloba može se u ranom uzrastu jedino učiniti ultrazvučnim pregledom. To je suverena metoda, metoda izbora, jer je metoda bezbolna, neinvazivna, jeftina i vrlo pouzdana. Ovom metodom se sa sigurnošću može otkriti bolest. Metoda daje potpunu informaciju o dječijem kuku šest sedmica prije RTG snimka.</p>
-                    <p>Ortopedsko liječenje obično je konzervativno i sastoji se od nošenja abdukcionih gaćica ili Pavlikovih kaišića. Ovim postupcima može se doći do izliječenja. Nedijagnosticirano urođenbo išćašenje kuka izlaže dijete uzrasta od dvije godine ozbiljnim operacijama na kuku. Ako ostane slabija razvijenost čašice kuka, dolazi do ranog oštećenja hrskavice zgloba kuka, kako na čašici tako i na glavi butne kosti. To rezultira ranim invaliditetom a nakon toga i operativnim liječenjem koje se sastoji od ugradnje vještačkog kuka.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-        <!-- Download Section -->
-        <section id="download" class="py-5">
-            <div class="container">
-                <h1 class="text-center">Radovi doktora Đozića</h1>
-
-                <h2 class="text-center">Preuzmi</h2>
-                <p class="text-center">Kliknite link ispod da preuzmete fajl Kongres Jahorina 2014</p>
-                <div class="text-center">
-                    <a href="fajlovi/KONGRES Jahorina 2014..pptx" download class="btn btn-primary">Preuzmi</a>
-                </div>
-            </div>
-
-            <div class="container">
-                <h2 class="text-center">Preuzmi</h2>
-                <p class="text-center">Kliknite link ispod da preuzmete fajl Kongres Jahorina 2022</p>
-                <div class="text-center">
-                    <a href="fajlovi/kongres Jahorina 2022.  Učitelji govore.pptx" download class="btn btn-primary">Preuzmi</a>
-                </div>
-            </div>
-
-            <div class="container">
-                <h2 class="text-center">Preuzmi</h2>
-                <p class="text-center">Kliknite link ispod da preuzmete fajl o razvojnom poremećaju djećijeg kuka</p>
-                <div class="text-center">
-                    <a href="fajlovi/RAZVOJNI POREMEĆAJ DJEČIJEG KUKA.doc" download class="btn btn-primary">Preuzmi</a>
-                </div>
-            </div>
-
-            <div class="container">
-                <h2 class="text-center">Preuzmi</h2>
-                <p class="text-center">Kliknite link ispod da preuzmete fajl o zadnjoj luksaciji ramena</p>
-                <div class="text-center">
-                    <a href="fajlovi/Zadnja luksacija ramena.ppt" download class="btn btn-primary">Preuzmi</a>
-                </div>
-            </div>
-
-            <div class="container">
-                <h2 class="text-center">Preuzmi</h2>
-                <p class="text-center">Kliknite link ispod da preuzmete fajl o doktoru Šukrija Đozić</p>
-                <div class="text-center">
-                    <a href="fajlovi/ŠUKRIJA ĐOZIĆ.pdf" download class="btn btn-primary">Preuzmi</a>
-                </div>
-            </div>
-        </section>
-
 
     <!-- Contact Section -->
-    <section id="contact" class="py-5">
+    <section id="contact" class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-center">Kontakt</h2>
+            <h2 class="text-center text-primary mb-4">Kontakt</h2>
             <div class="row">
-                <div class="col-md-6">
-                    <h5>RADNO VRIJEME</h5>
-                    <p>Ponedjeljak - Petak</p>
-                    <p>10:00 - 13:00 & 17:00 - 20:00</p>
-                    <p>Subota</p>
-                    <p>10:00 - 13:00</p>
-                    <p>Kontakt:</p>
-                    <p>TEL: 033 212 441</p>
-                    <p>MOB: 061 224 553</p>
-                    <p>E-MAIL: ordinacija.drdjozic@gmail.com</p>
-                    <p>ADRESA: UL. HUSREFA REDŽIĆA 10 SARAJEVO</p>
+                <div class="col-md-6 mb-4">
+                    <h5 class="text-secondary">RADNO VRIJEME</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <strong>Ponedjeljak - Petak:</strong> 10:00 - 13:00 & 17:00 - 20:00
+                        </li>
+                        <li class="mb-2">
+                            <strong>Subota:</strong> 10:00 - 13:00
+                        </li>
+                        <li class="mb-2">
+                            <strong>Kontakt:</strong>
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-phone-alt"></i> TEL: 033 212 441
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-mobile-alt"></i> MOB: 061 224 553
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-envelope"></i> E-MAIL: <a href="mailto:ordinacija.drdjozic@gmail.com">ordinacija.drdjozic@gmail.com</a>
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-map-marker-alt"></i> ADRESA: Husrefa Redžića 10, Sarajevo
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-md-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.7756572732316!2d18.406923715487454!3d43.85821687911564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c8b9d426cf71%3A0xf4b6e8ab4cfc0bff!2sUl.%20Husrefa%20Red%C5%BEi%C4%87a%2010%2C%20Sarajevo%2071000%2C%20Bosnia%20and%20Herzegovina!5e0!3m2!1sen!2s!4v1625586034880!5m2!1sen!2s" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.7756572732316!2d18.406923715487454!3d43.85821687911564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c8b9d426cf71%3A0xf4b6e8ab4cfc0bff!2sUl.%20Husrefa%20Red%C5%BEi%C4%87a%2010%2C%20Sarajevo%2071000%2C%20Bosnia%20and%20Herzegovina!5e0!3m2!1sen!2s!4v1625586034880!5m2!1sen!2s" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    
 
     <!-- Footer -->
-    <footer class="bg-light py-4">
+    <footer class="bg-white py-4">
         <div class="container text-center">
             <p>&copy; 2024 Dr. Đozić. All rights reserved.</p>
         </div>
